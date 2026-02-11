@@ -7,7 +7,6 @@ const CONFIG = {
     pageTitle: "Will You Be My Valentine Baby? 💝",
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓']
-        // Bears removed, only hearts remain
     },
     questions: {
         first: {
@@ -36,6 +35,18 @@ const CONFIG = {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",
         high: "To infinity and beyond! 🚀💝",
         normal: "And beyond! 🥰"
+    },
+    loveLetter: {
+        title: "💌 A Special Love Letter for You 💌",
+        message: `My dearest Enu,  
+
+From the moment I met you, my heart knew you were special. Every smile, every laugh, every little moment with you makes my world brighter.  
+You are my sunshine, my dream, and the love I’ve always wished for.  
+
+I promise to hold your hand through every joy and every challenge, to cherish you always, and to love you beyond words.  
+
+Forever yours,  
+💖 Your Valentine 💖`
     },
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
@@ -67,5 +78,6 @@ const CONFIG = {
 
 // Don't modify anything below this line
 window.VALENTINE_CONFIG = CONFIG;
+
 
 
