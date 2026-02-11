@@ -4,7 +4,7 @@
 
 const CONFIG = {
     // Your Valentine's name that will appear in the title
-    valentineName: "Enu",
+    valentineName: "Miss.Enu",
 
     // The title that appears in the browser tab
     pageTitle: "Will You Be My Valentine Baby? 💝",
@@ -15,20 +15,25 @@ const CONFIG = {
         bears: ['🧸', '🐻']
     },
 
-    // Updated Questions (Option 1 added here)
+    // Questions section (UPDATED)
     questions: {
         first: {
             text: "When did you first start liking me? 😊",
             yesBtn: "From the start 💕",
             noBtn: "Later 😌",
-            secretAnswer: "Honestly… I fell for you instantly ❤️"
+            secretAnswer: "Honestly… I fell for you instantly ❤️ (Mn oyata kamathi. Karanna deyak nh mn oyata kamathi)"
         },
         second: {
-            text: "What makes you smile the most about us? 🥰",
-            startText: "Everything about you!",
+            text: "How much do you love me? ❤️",
+            startText: "This much!",
             nextBtn: "Next 💖"
         },
         third: {
+            text: "Am I romantic? 😌💘",
+            yesBtn: "Need improvement 😜",
+            noBtn: "Very romantic ❤️"
+        },
+        fourth: {
             text: "Will you stay with me forever? 💍",
             yesBtn: "Always ❤️",
             noBtn: "Still thinking 😜"
@@ -75,6 +80,11 @@ const CONFIG = {
         stopText: "🔇 Stop Music",
         volume: 0.5
     }
+};
+
+// Don't modify anything below this line
+window.VALENTINE_CONFIG = CONFIG;
+
 };
 
 // Don't modify anything below this line
