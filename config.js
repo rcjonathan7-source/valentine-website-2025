@@ -6,8 +6,8 @@ const CONFIG = {
     valentineName: "Enu",
     pageTitle: "Will You Be My Valentine Baby? 💝",
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],
-        bears: ['🧸', '🐻']
+        hearts: ['❤️', '💖', '💝', '💗', '💓']
+        // Bears removed, only hearts remain
     },
     questions: {
         first: {
@@ -22,7 +22,7 @@ const CONFIG = {
             nextBtn: "Next 💖"
         },
         third: {
-            text: "Am I romantic? 😌💘",
+            text: "Am I romantic? 🥰💝",
             yesBtn: "Need improvement 😜",
             noBtn: "Very romantic ❤️"
         },
